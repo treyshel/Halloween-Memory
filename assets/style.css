@@ -1,0 +1,87 @@
+table,
+td {
+    margin-top: 3%;
+    border: 1px solid orange;
+    width: 550px;
+    height: 125px;
+}
+
+#winner {
+    color: orange;
+    animation-duration: 500ms;
+    animation-name: blink-winner;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes blink-winner {
+    from {
+        opacity: 100;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+body {
+    background-image: url('../assets/photos/halloween-background.jpg');
+}
+
+h1 {
+    font-family: 'Kaushan Script', cursive;
+    color: orange;
+    font-size: 10vh;
+}
+
+button {
+    padding: 15px 20px;
+    color: black;
+    background-color: orange;
+    border: none;
+    font-size: 2.5vh;
+}
+
+.witch {
+    background-image: url('photos/halloween-witch.gif');
+}
+
+.pumpkin {
+    background-image: url('photos/halloween-pumpkin.gif');
+}
+
+.ghost {
+    background-image: url('photos/halloween-ghost.gif');
+}
+
+.bat {
+    background-image: url('photos/halloween-bat.gif');
+}
+
+.haunted-house {
+    background-image: url('photos/halloween-house.gif');
+}
+
+.tree {
+    background-image: url('photos/halloween-tree.gif');
+}
+
+.coffin {
+    background-image: url('photos/halloween-coffin.gif');
+}
+
+.black-cat {
+    background-image: url('photos/halloween-cat.gif');
+}
+
+.dontshowcolor {
+    background-image: url('photos/halloween-black.jpg');
+}
+
+td {
+    background-color: black;
+    background-size: 150px 130px;
+    background-repeat: no-repeat;
+}
+
+.scary {
+    background-image: url('photos/scary-woman.jpg');
+}
